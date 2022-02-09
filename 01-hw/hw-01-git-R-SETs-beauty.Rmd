@@ -65,6 +65,8 @@ Before you can get started with the analysis, you need to make sure you:
 
 -   are a member of the course RStudio Cloud space (See Canvas Announcements for details)
 
+- You github credentials are set up in RStudio Cloud, see [here](https://rstudio.cloud/learn/guide#github-details)
+
 If you failed to confirm any of these, it means you have not yet completed the prerequisites for this assignment.
 Please go back to [Prerequisites] and complete them before continuing the assignment.
 
