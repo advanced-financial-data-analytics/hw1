@@ -32,7 +32,7 @@ As the course progresses, you are encouraged to explore beyond what the assignme
 
 Before you can get started with the analysis, you need to make sure you:
 
--   have a GitHub account (use your QUB email to register)
+-   have a GitHub account (use your QUB email to register) 
 
 -   are a member of the course GitHub organization (share your username and email with lecturer using this [google sheet](https://docs.google.com/spreadsheets/d/1-K29Kr4ly8EpQpXWN5zkuVQMbF0BWfPrK1mnYDJjqrU/edit?usp=sharing))
 
@@ -43,7 +43,6 @@ If you failed to confirm any of these, it means you have not yet completed the p
 # Workflow for future homeworks
 
 **IMPORTANT:** If there is no GitHub repo created for you for this assignment, it means I didn't have your GitHub username as of when I assigned the homework. Please let me know your GitHub username asap, and I can create your repo.
-
 
 For each assignment in this course you will start with a GitHub repo that I created for you and that contains the starter documents you will build upon when working on your assignment. The first step is always to bring these files into Posit so that you can edit them, run them, view your results, and interpret them. This action is called **cloning**.
 

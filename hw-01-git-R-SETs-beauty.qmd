@@ -76,9 +76,7 @@ The next few steps will walk you through the process of getting information of t
 
 ### Step 1. Get URL of repo to be cloned
 
-```{r clone-repo-link, fig.margin = TRUE, echo = FALSE, eval = TRUE}
-knitr::include_graphics("img/clone-repo-link.png")
-```
+![](img/clone-repo-link.png)
 
 On GitHub, click on the green **Code** button, select **HTTPS** (this might already be selected by default, and if it is, you'll see the text *Use Git or checkout with SVN using the web URL* jas in the image on the right). Click on the clipboard icon 📋 to copy the repo URL.
 
@@ -89,9 +87,7 @@ Go to [qrap.rstudio.cloud](https://sso.rstudio.cloud/q-rap) and then **navigate 
 -   It's only when you're in the course workspace that you'll be able to benefit from R packages I've pre-installed for you so that your project can be configured correctly.
 -   It's only when you're in the course workspace that your usage of RStudio Cloud won't count towards the free usage limits.
 
-```{r course-workspace, fig.margin = TRUE, echo = FALSE, eval = TRUE}
-knitr::include_graphics("img/course-workspace.png")
-```
+![](img/tsfeworkspace.png)
 
 Before you proceed, confirm that you are in the course workspace by checking out what's on your top bar in RStudio Cloud.
 
@@ -101,17 +97,13 @@ In RStudio, click on the **down arrow** next to New Project and then choose **Ne
 
 In the pop-up window, **paste the URL** you copied from GitHub, make sure the box for **Add packages from the base project** is checked (it should be, by default) and then click **OK**.
 
-```{r new-project-from-git, echo = FALSE, eval = TRUE, fig.align = "left"}
-knitr::include_graphics("img/new-project-from-git.png")
-```
+[1](img/new-project-from-git.png)
 
 # Hello RStudio!
 
 RStudio is comprised of four panes.
 
-```{r rstudio-anatomy, fig.fullwidth=TRUE, echo = FALSE, eval = TRUE}
-knitr::include_graphics("img/rstudio-anatomy.png")
-```
+![](img/rstudio-anatomy.png)
 
 -   On the bottom left is the Console, this is where you can write code that will be evaluated. Try typing `2 + 2` here and hit enter, what do you get?
 -   On the bottom right is the Files pane, as well as other panes that will come handy as we start our analysis.
@@ -130,9 +122,7 @@ The top portion of your Quarto file (between the three dashed lines) is called *
 
 Open the Quarto (Rmd) file in your project, change the author name to your name, and knit the document.
 
-```{r yaml-raw-to-rendered, echo = FALSE, eval = TRUE, fig.align = "center"}
-knitr::include_graphics("img/yaml-raw-to-rendered.png")
-```
+![](img/yaml-raw-to-rendered.png)
 
 ## Step 2: Commit
 
@@ -142,9 +132,7 @@ You should see that your qmd (Quarto) file and its output, your md file (Markdow
 
 Next, click on **Diff**. This will pop open a new window that shows you the **diff**erence between the last committed state of the document and its current state that includes your changes. If you're happy with these changes, click on the checkboxes of all files in the list, and type *"Update author name"* in the **Commit message** box and hit **Commit**.
 
-```{r update-author-name-commit, echo = FALSE, eval = TRUE, fig.align = "left"}
-knitr::include_graphics("img/update-author-name-commit.png")
-```
+![](img/update-author-name-commit.png)
 
 You don't have to commit after every change, this would get quite cumbersome. You should consider committing states that are *meaningful to you* for inspection, comparison, or restoration. In the first few assignments we will tell you exactly when to commit and in some cases, what commit message to use. As the semester progresses we will let you make these decisions.
 
@@ -152,9 +140,7 @@ You don't have to commit after every change, this would get quite cumbersome. Yo
 
 Now that you have made an update and committed this change, it's time to push these changes to the web! Or more specifically, to your repo on GitHub. Why? So that others can see your changes. And by others, we mean the course teaching team (your repos in this course are private to you and us, only). In order to push your changes to GitHub, click on **Push**.
 
-```{r ready-to-push, fig.margin = TRUE, echo = FALSE, eval = TRUE}
-knitr::include_graphics("img/ready-to-push.png")
-```
+![](img/ready-to-push.png)
 
 This will prompt a dialogue box where you first need to enter your user name, and then your password. This might feel cumbersome. Bear with me... I *will* teach you how to save your password so you don't have to enter it every time. But for this one assignment you'll have to manually enter each time you push in order to gain some experience with it.
 
@@ -171,9 +157,8 @@ R is an open-source language, and developers contribute functionality to R via p
 
 We use the `library()` function to load packages. In your Quarto document you should see an R chunk labelled `load-packages` which has the necessary code for loading both packages. You should also load these packages in your Console, which you can do by sending the code to your Console by clicking on the **Run Current Chunk** icon (green arrow pointing right icon).
 
-```{r load-packages-chunk, echo = FALSE, eval = TRUE, fig.align = "left"}
-knitr::include_graphics("img/load-packages-chunk.png")
-```
+
+![](img/load-packages-chunk.png)
 
 Note that these packages also get loaded in your Quarto environment when you **Render** your Quarto document.
 
