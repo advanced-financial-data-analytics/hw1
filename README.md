@@ -42,7 +42,11 @@ If you failed to confirm any of these, it means you have not yet completed the p
 
 # Workflow for future homeworks
 
-<div style="position: relative; padding-bottom: 64.90384615384616%; height: 0;"><iframe src="https://www.loom.com/embed/e8c02eda86e2491a815401ba6d260738" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
+<a href="https://www.loom.com/share/e8c02eda86e2491a815401ba6d260738">
+    <p>Getting starting with the homework - Watch Video</p>
+    <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/e8c02eda86e2491a815401ba6d260738-1675956213049-with-play.gif">
+  </a>
 
 **IMPORTANT:** If there is no GitHub repo created for you for this assignment, it means I didn't have your GitHub username as of when I assigned the homework. Please let me know your GitHub username asap, and I can create your repo.
 
